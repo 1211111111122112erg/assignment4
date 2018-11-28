@@ -117,6 +117,45 @@ header nav{
     
 }
 
+main {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+    margin-top: 28px;
+
+    
+}
+
+form p {
+    display: flex;
+    margin-bottom: 20px;
+    color:darkred;
+    background-color: darksalmon
+}
+
+form label {
+    flex-basis: 30%;
+}
+
+form input, textarea, select {
+    flex: 1;
+    margin: 0 1em;
+    border-radius: 5px;
+}
+
+form select {
+    text-align: center;
+}
+
+form input[type=submit] {
+    color:#0089ff;
+}
+
+.radio-buttons {
+    margin-right: 15px;
+}
+
 #logo{
     box-shadow: none;
 }
