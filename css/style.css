@@ -42,6 +42,13 @@ h1 {
     flex-direction: column;
 }
 
+.LO {
+    margin: 40px; color: white;
+     display: flex;
+    align-items: center
+    
+}
+
 html {
     font-family: helvetica;
     color: floralwhite
@@ -130,8 +137,8 @@ main {
 form p {
     display: flex;
     margin-bottom: 20px;
-    color:darkred;
-    background-color: darksalmon
+    color:white;
+
 }
 
 form label {
@@ -150,10 +157,6 @@ form select {
 
 form input[type=submit] {
     color:#0089ff;
-}
-
-.radio-buttons {
-    margin-right: 15px;
 }
 
 #logo{
@@ -189,5 +192,3 @@ footer nav li {
     footer {
         flex-direction: column;
     } 
-
-

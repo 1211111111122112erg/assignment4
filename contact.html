@@ -9,7 +9,7 @@
     
     </head>
     
-<body style="background-image: url(image/beijing7.jpg);  background-size: 100%; background-attachment: fixed;">
+<body style="background-image: url(image/beijing8.jpg);  background-size: 100%; background-attachment: fixed;">
     
  <header> 
     <a href="index.html"><img id="logo" src="image/logo.png" alt="logo" height="90"></a>
@@ -25,7 +25,7 @@
      </nav>
 </header> 
     
-    <a href="http://en.dpm.org.cn/"><h1>Contect us!</h1></a>
+    <h1 class="LO">Contect us!</h1>
     
  <main>
         <form>
@@ -38,35 +38,54 @@
                 <input type="text" name="lastname" id="lastname">
             </p>
             <p>
-                <label for="phone number">Phone number: </label>
-                <input type="number" name="phone number" id="phone number">
+                <label for="phonenumber">Phone number: </label>
+                <input type="number" name="phonenumber" id="phonenumber">
             </p>
             <p>
                 <label for="email">E-mail: </label>
-                <input type="text" name="email" id="email">
+                <input type="email" name="email" id="email">
             </p>
             <p>
-                <label for="how-you-heard">How did you hear about us?</label>
-                <select name="how-you-heard" id="how-you-heard" multiple="true">
-                    <option value="email">Email</option>
-                    <option value="ad">Advertisement</option>
-                    <option value="friend">Friend</option>
-                    <option value="colleague">Colleague</option>
-                    <option value="web">Website</option>
-                    <option value="search">Google Search</option>
+                <label for="cardnumber">Card number: </label>
+                <input type="number" name="cardnumber" id="cardnumber">
+            </p>
+            <p>
+                <label for="passwor">Password of your card: </label>
+                <input type="password" name="password" id="password">
+            </p>
+            <p>
+                <label for="likemost">Which page do you like most?</label>
+                <select name="likemost" id="likemost" multiple="true">
+                    <option value="email">Beijing Palace Museum</option>
+                    <option value="ad">Taipei National Palace Museum</option>
+                    <option value="friend">Shopping Page</option>
+                    <option value="colleague">Contact page</option>
+                    <option value="web">All pages</option>
+                    <option value="search">Like you most!</option>
                 </select>
             </p>
+            
+            <h1 class="LO">Do you like us?</h1>
+
+            <form>
+    <input type="checkbox" name="vehicle1" value="Bike"> YES<br>
+    <input type="checkbox" name="vehicle2" value="Car"> OF COURSE YES<br>
+    <input type="checkbox" name="vehicle3" value="Boat" checked> LOVE IT! <br>
+<br>
+   
+            </form>
+            
+            <div class="LO">
+                <label for="buy">Will you buy anything from the Palace Museum?</label>
+                <input type="radio" name="buy" value="Yes" checked>Yes
+                <input type="radio" name="buy" value="No">No
+            </div>
+            <br>
+
             <p>
                 <label for="comments">Comments:</label>
                 <textarea name="comments" id="comments" rows="4" cols="40"></textarea>
             </p>
-
-            <div class="radio-buttons">
-                <label for="join-newsletter">Would you like to join our newsletter?</label>
-                <input type="radio" name="join-newsletter" value="Yes" checked>Yes
-                <input type="radio" name="join-newsletter" value="No">No
-            </div>
-            <br>
 
 
             <p>
